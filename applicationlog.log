@@ -1,0 +1,70 @@
+2019-09-20 14:22:43,346 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-20 14:22:43,374 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using blank value
+2019-09-20 14:22:43,435 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-20 14:22:43,443 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using blank value
+2019-09-20 14:22:44,808 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-20 14:22:44,810 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using blank value
+2019-09-20 14:22:44,814 - io.github.bonigarcia.wdm.Shell -TRACE - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+2019-09-20 14:22:45,003 - io.github.bonigarcia.wdm.Shell -TRACE - Result: Version=76.0.3809.132
+2019-09-20 14:22:45,004 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Detected Google Chrome version 76
+2019-09-20 14:22:45,008 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-20 14:22:45,010 - io.github.bonigarcia.wdm.Preferences -DEBUG - Preference found chrome76=76.0.3809.68 (valid until 2019-09-21 10:03:19)
+2019-09-20 14:22:45,011 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 76.0.3809.68 (since Google Chrome 76 is installed in your machine)
+2019-09-20 14:22:45,012 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Managing chromedriver arch=64 version=76.0.3809.68 getLatest=false cache=false
+2019-09-20 14:22:45,012 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Checking if chromedriver exists in cache
+2019-09-20 14:22:45,015 - io.github.bonigarcia.wdm.Downloader -TRACE - Target path C:\Users\DELL/.m2/repository/webdriver
+2019-09-20 14:22:45,060 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by chromedriver -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-20 14:22:45,064 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by 76.0.3809.68 -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-20 14:22:45,066 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by win -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-20 14:22:45,069 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-20 14:22:45,075 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-20 14:22:45,076 - io.github.bonigarcia.wdm.WebDriverManager -DEBUG - Driver chromedriver 76.0.3809.68 found in cache
+2019-09-20 14:22:45,079 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe
+2019-09-20 14:23:19,460 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-20 14:23:19,463 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using blank value
+2019-09-20 14:23:19,466 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-20 14:23:19,469 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using blank value
+2019-09-20 14:23:19,485 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-20 14:23:19,489 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using blank value
+2019-09-20 14:23:19,491 - io.github.bonigarcia.wdm.Shell -TRACE - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+2019-09-20 14:23:19,715 - io.github.bonigarcia.wdm.Shell -TRACE - Result: Version=76.0.3809.132
+2019-09-20 14:23:19,716 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Detected Google Chrome version 76
+2019-09-20 14:23:19,720 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-20 14:23:19,722 - io.github.bonigarcia.wdm.Preferences -DEBUG - Preference found chrome76=76.0.3809.68 (valid until 2019-09-21 10:03:19)
+2019-09-20 14:23:19,723 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 76.0.3809.68 (since Google Chrome 76 is installed in your machine)
+2019-09-20 14:23:19,725 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Managing chromedriver arch=64 version=76.0.3809.68 getLatest=false cache=false
+2019-09-20 14:23:19,725 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Checking if chromedriver exists in cache
+2019-09-20 14:23:19,728 - io.github.bonigarcia.wdm.Downloader -TRACE - Target path C:\Users\DELL/.m2/repository/webdriver
+2019-09-20 14:23:19,735 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by chromedriver -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-20 14:23:19,736 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by 76.0.3809.68 -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-20 14:23:19,737 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by win -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-20 14:23:19,741 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-20 14:23:19,766 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-20 14:23:19,769 - io.github.bonigarcia.wdm.WebDriverManager -DEBUG - Driver chromedriver 76.0.3809.68 found in cache
+2019-09-20 14:23:19,775 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe
+2019-09-20 14:23:55,196 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-20 14:23:55,199 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using blank value
+2019-09-20 14:23:55,202 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-20 14:23:55,204 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using blank value
+2019-09-20 14:23:55,212 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-20 14:23:55,215 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using blank value
+2019-09-20 14:23:55,216 - io.github.bonigarcia.wdm.Shell -TRACE - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+2019-09-20 14:23:55,384 - io.github.bonigarcia.wdm.Shell -TRACE - Result: Version=76.0.3809.132
+2019-09-20 14:23:55,385 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Detected Google Chrome version 76
+2019-09-20 14:23:55,389 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-20 14:23:55,390 - io.github.bonigarcia.wdm.Preferences -DEBUG - Preference found chrome76=76.0.3809.68 (valid until 2019-09-21 10:03:19)
+2019-09-20 14:23:55,391 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 76.0.3809.68 (since Google Chrome 76 is installed in your machine)
+2019-09-20 14:23:55,392 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Managing chromedriver arch=64 version=76.0.3809.68 getLatest=false cache=false
+2019-09-20 14:23:55,393 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Checking if chromedriver exists in cache
+2019-09-20 14:23:55,394 - io.github.bonigarcia.wdm.Downloader -TRACE - Target path C:\Users\DELL/.m2/repository/webdriver
+2019-09-20 14:23:55,400 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by chromedriver -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-20 14:23:55,401 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by 76.0.3809.68 -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-20 14:23:55,402 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by win -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-20 14:23:55,405 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-20 14:23:55,410 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-20 14:23:55,411 - io.github.bonigarcia.wdm.WebDriverManager -DEBUG - Driver chromedriver 76.0.3809.68 found in cache
+2019-09-20 14:23:55,414 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe
+2019-09-20 14:24:26,640 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection manager is shutting down
+2019-09-20 14:24:26,641 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection manager shut down
+2019-09-20 14:24:26,643 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection manager is shutting down
+2019-09-20 14:24:26,643 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection manager shut down

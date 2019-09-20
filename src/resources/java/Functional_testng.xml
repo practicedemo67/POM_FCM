@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E2ESuite">
+  <test thread-count="5" name="FunctionalTest">
+    <classes>
+      <class name="com.fcm.qa.testcases.ContactPageTest"/>
+      <class name="com.fcm.qa.testcases.HomePageTest"/>
+      <class name="com.fcm.qa.testcases.LoginPageTest"/>
+    </classes>
+  </test> <!-- FunctionalTest -->
+</suite> <!-- E2ESuite -->

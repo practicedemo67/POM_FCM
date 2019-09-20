@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [E2ESuite]">
+  <test thread-count="5" name="SanityTest(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.fcm.qa.testcases.ContactPageTest">
+        <methods>
+          <include name="initialization"/>
+          <include name="verifyPage"/>
+        </methods>
+      </class> <!-- com.fcm.qa.testcases.ContactPageTest -->
+    </classes>
+  </test> <!-- SanityTest(failed) -->
+</suite> <!-- Failed suite [E2ESuite] -->

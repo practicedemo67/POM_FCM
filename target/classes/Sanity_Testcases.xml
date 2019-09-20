@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E2ESuite">
+ <listeners>
+  <listener class-name="com.fcm.qa.util.TestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="SanityTest">
+    <classes>
+      <class name="com.fcm.qa.testcases.ContactPageTest"/>
+       <class name="com.fcm.qa.testcases.HomePageTest"/>
+    </classes>
+  </test> <!-- FunctionalTest -->
+</suite> <!-- E2ESuite -->
