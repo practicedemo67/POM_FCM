@@ -1,70 +1,446 @@
-2019-09-20 15:57:18,264 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
-2019-09-20 15:57:18,279 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using blank value
-2019-09-20 15:57:18,325 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
-2019-09-20 15:57:18,330 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using blank value
-2019-09-20 15:57:19,645 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
-2019-09-20 15:57:19,648 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using blank value
-2019-09-20 15:57:19,652 - io.github.bonigarcia.wdm.Shell -TRACE - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
-2019-09-20 15:57:19,991 - io.github.bonigarcia.wdm.Shell -TRACE - Result: Version=76.0.3809.132
-2019-09-20 15:57:19,992 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Detected Google Chrome version 76
-2019-09-20 15:57:19,997 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
-2019-09-20 15:57:19,999 - io.github.bonigarcia.wdm.Preferences -DEBUG - Preference found chrome76=76.0.3809.68 (valid until 2019-09-21 10:03:19)
-2019-09-20 15:57:20,000 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 76.0.3809.68 (since Google Chrome 76 is installed in your machine)
-2019-09-20 15:57:20,002 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Managing chromedriver arch=64 version=76.0.3809.68 getLatest=false cache=false
-2019-09-20 15:57:20,003 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Checking if chromedriver exists in cache
-2019-09-20 15:57:20,006 - io.github.bonigarcia.wdm.Downloader -TRACE - Target path C:\Users\DELL/.m2/repository/webdriver
-2019-09-20 15:57:20,040 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by chromedriver -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
-2019-09-20 15:57:20,044 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by 76.0.3809.68 -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
-2019-09-20 15:57:20,045 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by win -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
-2019-09-20 15:57:20,048 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
-2019-09-20 15:57:20,052 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
-2019-09-20 15:57:20,053 - io.github.bonigarcia.wdm.WebDriverManager -DEBUG - Driver chromedriver 76.0.3809.68 found in cache
-2019-09-20 15:57:20,056 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe
-2019-09-20 15:57:45,877 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
-2019-09-20 15:57:45,880 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using blank value
-2019-09-20 15:57:45,884 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
-2019-09-20 15:57:45,886 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using blank value
-2019-09-20 15:57:45,895 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
-2019-09-20 15:57:45,898 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using blank value
-2019-09-20 15:57:45,900 - io.github.bonigarcia.wdm.Shell -TRACE - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
-2019-09-20 15:57:46,064 - io.github.bonigarcia.wdm.Shell -TRACE - Result: Version=76.0.3809.132
-2019-09-20 15:57:46,065 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Detected Google Chrome version 76
-2019-09-20 15:57:46,071 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
-2019-09-20 15:57:46,073 - io.github.bonigarcia.wdm.Preferences -DEBUG - Preference found chrome76=76.0.3809.68 (valid until 2019-09-21 10:03:19)
-2019-09-20 15:57:46,074 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 76.0.3809.68 (since Google Chrome 76 is installed in your machine)
-2019-09-20 15:57:46,075 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Managing chromedriver arch=64 version=76.0.3809.68 getLatest=false cache=false
-2019-09-20 15:57:46,076 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Checking if chromedriver exists in cache
-2019-09-20 15:57:46,079 - io.github.bonigarcia.wdm.Downloader -TRACE - Target path C:\Users\DELL/.m2/repository/webdriver
-2019-09-20 15:57:46,086 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by chromedriver -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
-2019-09-20 15:57:46,087 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by 76.0.3809.68 -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
-2019-09-20 15:57:46,088 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by win -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
-2019-09-20 15:57:46,092 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
-2019-09-20 15:57:46,101 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
-2019-09-20 15:57:46,102 - io.github.bonigarcia.wdm.WebDriverManager -DEBUG - Driver chromedriver 76.0.3809.68 found in cache
-2019-09-20 15:57:46,114 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe
-2019-09-20 15:58:11,003 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
-2019-09-20 15:58:11,005 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using blank value
-2019-09-20 15:58:11,007 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
-2019-09-20 15:58:11,009 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using blank value
-2019-09-20 15:58:11,019 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
-2019-09-20 15:58:11,021 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using blank value
-2019-09-20 15:58:11,023 - io.github.bonigarcia.wdm.Shell -TRACE - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
-2019-09-20 15:58:11,170 - io.github.bonigarcia.wdm.Shell -TRACE - Result: Version=76.0.3809.132
-2019-09-20 15:58:11,171 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Detected Google Chrome version 76
-2019-09-20 15:58:11,174 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
-2019-09-20 15:58:11,175 - io.github.bonigarcia.wdm.Preferences -DEBUG - Preference found chrome76=76.0.3809.68 (valid until 2019-09-21 10:03:19)
-2019-09-20 15:58:11,176 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 76.0.3809.68 (since Google Chrome 76 is installed in your machine)
-2019-09-20 15:58:11,177 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Managing chromedriver arch=64 version=76.0.3809.68 getLatest=false cache=false
-2019-09-20 15:58:11,178 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Checking if chromedriver exists in cache
-2019-09-20 15:58:11,180 - io.github.bonigarcia.wdm.Downloader -TRACE - Target path C:\Users\DELL/.m2/repository/webdriver
-2019-09-20 15:58:11,185 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by chromedriver -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
-2019-09-20 15:58:11,186 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by 76.0.3809.68 -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
-2019-09-20 15:58:11,187 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by win -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
-2019-09-20 15:58:11,191 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
-2019-09-20 15:58:11,196 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
-2019-09-20 15:58:11,197 - io.github.bonigarcia.wdm.WebDriverManager -DEBUG - Driver chromedriver 76.0.3809.68 found in cache
-2019-09-20 15:58:11,200 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe
-2019-09-20 15:58:33,002 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection manager is shutting down
-2019-09-20 15:58:33,004 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection manager shut down
-2019-09-20 15:58:33,012 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection manager is shutting down
-2019-09-20 15:58:33,013 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection manager shut down
+2019-09-21 01:21:40,655 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-21 01:21:40,665 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using blank value
+2019-09-21 01:21:40,698 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-21 01:21:40,700 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using blank value
+2019-09-21 01:21:41,741 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-21 01:21:41,743 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using blank value
+2019-09-21 01:21:41,746 - io.github.bonigarcia.wdm.Shell -TRACE - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+2019-09-21 01:21:42,062 - io.github.bonigarcia.wdm.Shell -TRACE - Result: Version=76.0.3809.132
+2019-09-21 01:21:42,063 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Detected Google Chrome version 76
+2019-09-21 01:21:42,066 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-21 01:21:42,068 - io.github.bonigarcia.wdm.Preferences -DEBUG - Preference found chrome76=76.0.3809.68 (valid until 2019-09-21 10:03:19)
+2019-09-21 01:21:42,068 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 76.0.3809.68 (since Google Chrome 76 is installed in your machine)
+2019-09-21 01:21:42,069 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Managing chromedriver arch=64 version=76.0.3809.68 getLatest=false cache=false
+2019-09-21 01:21:42,070 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Checking if chromedriver exists in cache
+2019-09-21 01:21:42,072 - io.github.bonigarcia.wdm.Downloader -TRACE - Target path C:\Users\DELL/.m2/repository/webdriver
+2019-09-21 01:21:42,096 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by chromedriver -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-21 01:21:42,099 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by 76.0.3809.68 -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-21 01:21:42,100 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by win -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-21 01:21:42,102 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-21 01:21:42,107 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-21 01:21:42,108 - io.github.bonigarcia.wdm.WebDriverManager -DEBUG - Driver chromedriver 76.0.3809.68 found in cache
+2019-09-21 01:21:42,111 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe
+2019-09-21 01:22:19,294 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:22:19,298 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2019-09-21 01:22:19,306 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2019-09-21 01:22:19,310 - freemarker.cache -DEBUG - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2019-09-21 01:22:20,292 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:22:20,294 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2019-09-21 01:22:20,296 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2019-09-21 01:22:20,297 - freemarker.cache -DEBUG - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2019-09-21 01:22:20,319 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:22:20,323 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2019-09-21 01:22:20,325 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2019-09-21 01:22:20,326 - freemarker.cache -DEBUG - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2019-09-21 01:22:20,364 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:22:20,370 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2019-09-21 01:22:20,372 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2019-09-21 01:22:20,373 - freemarker.cache -DEBUG - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2019-09-21 01:22:20,430 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:22:20,433 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2019-09-21 01:22:20,451 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2019-09-21 01:22:20,452 - freemarker.cache -DEBUG - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2019-09-21 01:22:20,505 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:22:20,507 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2019-09-21 01:22:20,509 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2019-09-21 01:22:20,519 - freemarker.cache -DEBUG - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2019-09-21 01:22:20,706 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:22:20,707 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2019-09-21 01:22:20,710 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2019-09-21 01:22:20,783 - freemarker.cache -DEBUG - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2019-09-21 01:22:20,808 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:22:20,811 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2019-09-21 01:22:20,815 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2019-09-21 01:22:20,816 - freemarker.cache -DEBUG - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2019-09-21 01:22:20,829 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:22:20,833 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2019-09-21 01:22:20,840 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2019-09-21 01:22:20,841 - freemarker.cache -DEBUG - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2019-09-21 01:22:20,895 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:22:20,897 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2019-09-21 01:22:20,900 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2019-09-21 01:22:20,901 - freemarker.cache -DEBUG - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2019-09-21 01:22:20,944 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:22:20,948 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2019-09-21 01:22:20,951 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2019-09-21 01:22:20,952 - freemarker.cache -DEBUG - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2019-09-21 01:22:21,869 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-21 01:22:21,871 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using blank value
+2019-09-21 01:22:21,873 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-21 01:22:21,876 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using blank value
+2019-09-21 01:22:21,892 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-21 01:22:21,902 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using blank value
+2019-09-21 01:22:21,904 - io.github.bonigarcia.wdm.Shell -TRACE - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+2019-09-21 01:22:22,223 - io.github.bonigarcia.wdm.Shell -TRACE - Result: Version=76.0.3809.132
+2019-09-21 01:22:22,224 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Detected Google Chrome version 76
+2019-09-21 01:22:22,227 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-21 01:22:22,229 - io.github.bonigarcia.wdm.Preferences -DEBUG - Preference found chrome76=76.0.3809.68 (valid until 2019-09-21 10:03:19)
+2019-09-21 01:22:22,230 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 76.0.3809.68 (since Google Chrome 76 is installed in your machine)
+2019-09-21 01:22:22,231 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Managing chromedriver arch=64 version=76.0.3809.68 getLatest=false cache=false
+2019-09-21 01:22:22,232 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Checking if chromedriver exists in cache
+2019-09-21 01:22:22,234 - io.github.bonigarcia.wdm.Downloader -TRACE - Target path C:\Users\DELL/.m2/repository/webdriver
+2019-09-21 01:22:22,240 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by chromedriver -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-21 01:22:22,241 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by 76.0.3809.68 -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-21 01:22:22,241 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by win -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-21 01:22:22,244 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-21 01:22:22,248 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-21 01:22:22,249 - io.github.bonigarcia.wdm.WebDriverManager -DEBUG - Driver chromedriver 76.0.3809.68 found in cache
+2019-09-21 01:22:22,252 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe
+2019-09-21 01:23:11,172 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:23:11,173 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2019-09-21 01:23:11,174 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2019-09-21 01:23:11,175 - freemarker.cache -DEBUG - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2019-09-21 01:23:11,192 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:23:11,193 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2019-09-21 01:23:11,194 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2019-09-21 01:23:11,194 - freemarker.cache -DEBUG - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2019-09-21 01:23:11,202 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:23:11,203 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2019-09-21 01:23:11,204 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2019-09-21 01:23:11,205 - freemarker.cache -DEBUG - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2019-09-21 01:23:11,214 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:23:11,218 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2019-09-21 01:23:11,219 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2019-09-21 01:23:11,219 - freemarker.cache -DEBUG - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2019-09-21 01:23:11,241 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:23:11,245 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2019-09-21 01:23:11,247 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2019-09-21 01:23:11,248 - freemarker.cache -DEBUG - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2019-09-21 01:23:11,283 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:23:11,285 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2019-09-21 01:23:11,286 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2019-09-21 01:23:11,288 - freemarker.cache -DEBUG - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2019-09-21 01:23:11,321 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:23:11,322 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2019-09-21 01:23:11,323 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2019-09-21 01:23:11,323 - freemarker.cache -DEBUG - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2019-09-21 01:23:11,333 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:23:11,335 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2019-09-21 01:23:11,337 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2019-09-21 01:23:11,337 - freemarker.cache -DEBUG - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2019-09-21 01:23:11,343 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:23:11,344 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2019-09-21 01:23:11,345 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2019-09-21 01:23:11,346 - freemarker.cache -DEBUG - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2019-09-21 01:23:11,372 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:23:11,375 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2019-09-21 01:23:11,376 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2019-09-21 01:23:11,376 - freemarker.cache -DEBUG - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2019-09-21 01:23:11,410 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:23:11,412 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2019-09-21 01:23:11,420 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2019-09-21 01:23:11,421 - freemarker.cache -DEBUG - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2019-09-21 01:23:12,269 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-21 01:23:12,270 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using blank value
+2019-09-21 01:23:12,271 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-21 01:23:12,272 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using blank value
+2019-09-21 01:23:12,278 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-21 01:23:12,279 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using blank value
+2019-09-21 01:23:12,280 - io.github.bonigarcia.wdm.Shell -TRACE - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+2019-09-21 01:23:12,443 - io.github.bonigarcia.wdm.Shell -TRACE - Result: Version=76.0.3809.132
+2019-09-21 01:23:12,444 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Detected Google Chrome version 76
+2019-09-21 01:23:12,447 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-21 01:23:12,449 - io.github.bonigarcia.wdm.Preferences -DEBUG - Preference found chrome76=76.0.3809.68 (valid until 2019-09-21 10:03:19)
+2019-09-21 01:23:12,450 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 76.0.3809.68 (since Google Chrome 76 is installed in your machine)
+2019-09-21 01:23:12,451 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Managing chromedriver arch=64 version=76.0.3809.68 getLatest=false cache=false
+2019-09-21 01:23:12,451 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Checking if chromedriver exists in cache
+2019-09-21 01:23:12,453 - io.github.bonigarcia.wdm.Downloader -TRACE - Target path C:\Users\DELL/.m2/repository/webdriver
+2019-09-21 01:23:12,459 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by chromedriver -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-21 01:23:12,459 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by 76.0.3809.68 -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-21 01:23:12,460 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by win -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-21 01:23:12,463 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-21 01:23:12,467 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-21 01:23:12,469 - io.github.bonigarcia.wdm.WebDriverManager -DEBUG - Driver chromedriver 76.0.3809.68 found in cache
+2019-09-21 01:23:12,470 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe
+2019-09-21 01:23:41,973 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:23:41,973 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2019-09-21 01:23:41,973 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2019-09-21 01:23:41,973 - freemarker.cache -DEBUG - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2019-09-21 01:23:41,989 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:23:41,989 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2019-09-21 01:23:41,989 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2019-09-21 01:23:41,989 - freemarker.cache -DEBUG - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2019-09-21 01:23:42,004 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:23:42,004 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2019-09-21 01:23:42,004 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2019-09-21 01:23:42,004 - freemarker.cache -DEBUG - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2019-09-21 01:23:42,004 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:23:42,004 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2019-09-21 01:23:42,004 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2019-09-21 01:23:42,004 - freemarker.cache -DEBUG - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2019-09-21 01:23:42,020 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:23:42,020 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2019-09-21 01:23:42,020 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2019-09-21 01:23:42,020 - freemarker.cache -DEBUG - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2019-09-21 01:23:42,035 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:23:42,035 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2019-09-21 01:23:42,035 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2019-09-21 01:23:42,035 - freemarker.cache -DEBUG - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2019-09-21 01:23:42,073 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:23:42,074 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2019-09-21 01:23:42,076 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2019-09-21 01:23:42,078 - freemarker.cache -DEBUG - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2019-09-21 01:23:42,089 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:23:42,091 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2019-09-21 01:23:42,092 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2019-09-21 01:23:42,092 - freemarker.cache -DEBUG - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2019-09-21 01:23:42,100 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:23:42,101 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2019-09-21 01:23:42,102 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2019-09-21 01:23:42,102 - freemarker.cache -DEBUG - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2019-09-21 01:23:42,105 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:23:42,105 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2019-09-21 01:23:42,105 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2019-09-21 01:23:42,105 - freemarker.cache -DEBUG - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2019-09-21 01:23:42,121 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:23:42,121 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2019-09-21 01:23:42,121 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2019-09-21 01:23:42,121 - freemarker.cache -DEBUG - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2019-09-21 01:23:42,864 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-21 01:23:42,872 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using blank value
+2019-09-21 01:23:42,872 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-21 01:23:42,872 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using blank value
+2019-09-21 01:23:42,872 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-21 01:23:42,872 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using blank value
+2019-09-21 01:23:42,888 - io.github.bonigarcia.wdm.Shell -TRACE - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+2019-09-21 01:23:43,060 - io.github.bonigarcia.wdm.Shell -TRACE - Result: Version=76.0.3809.132
+2019-09-21 01:23:43,060 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Detected Google Chrome version 76
+2019-09-21 01:23:43,076 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-21 01:23:43,076 - io.github.bonigarcia.wdm.Preferences -DEBUG - Preference found chrome76=76.0.3809.68 (valid until 2019-09-21 10:03:19)
+2019-09-21 01:23:43,076 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 76.0.3809.68 (since Google Chrome 76 is installed in your machine)
+2019-09-21 01:23:43,076 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Managing chromedriver arch=64 version=76.0.3809.68 getLatest=false cache=false
+2019-09-21 01:23:43,076 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Checking if chromedriver exists in cache
+2019-09-21 01:23:43,076 - io.github.bonigarcia.wdm.Downloader -TRACE - Target path C:\Users\DELL/.m2/repository/webdriver
+2019-09-21 01:23:43,076 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by chromedriver -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-21 01:23:43,076 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by 76.0.3809.68 -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-21 01:23:43,076 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by win -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-21 01:23:43,091 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-21 01:23:43,091 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-21 01:23:43,091 - io.github.bonigarcia.wdm.WebDriverManager -DEBUG - Driver chromedriver 76.0.3809.68 found in cache
+2019-09-21 01:23:43,091 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe
+2019-09-21 01:24:06,649 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:24:06,651 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2019-09-21 01:24:06,653 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2019-09-21 01:24:06,664 - freemarker.cache -DEBUG - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2019-09-21 01:24:06,686 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:24:06,688 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2019-09-21 01:24:06,690 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2019-09-21 01:24:06,690 - freemarker.cache -DEBUG - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2019-09-21 01:24:06,701 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:24:06,703 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2019-09-21 01:24:06,706 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2019-09-21 01:24:06,706 - freemarker.cache -DEBUG - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2019-09-21 01:24:06,717 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:24:06,718 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2019-09-21 01:24:06,720 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2019-09-21 01:24:06,733 - freemarker.cache -DEBUG - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2019-09-21 01:24:06,753 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:24:06,755 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2019-09-21 01:24:06,757 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2019-09-21 01:24:06,758 - freemarker.cache -DEBUG - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2019-09-21 01:24:06,775 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:24:06,779 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2019-09-21 01:24:06,781 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2019-09-21 01:24:06,785 - freemarker.cache -DEBUG - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2019-09-21 01:24:06,829 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:24:06,831 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2019-09-21 01:24:06,834 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2019-09-21 01:24:06,835 - freemarker.cache -DEBUG - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2019-09-21 01:24:06,845 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:24:06,847 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2019-09-21 01:24:06,849 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2019-09-21 01:24:06,850 - freemarker.cache -DEBUG - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2019-09-21 01:24:06,865 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:24:06,867 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2019-09-21 01:24:06,869 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2019-09-21 01:24:06,870 - freemarker.cache -DEBUG - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2019-09-21 01:24:06,880 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:24:06,882 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2019-09-21 01:24:06,885 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2019-09-21 01:24:06,886 - freemarker.cache -DEBUG - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2019-09-21 01:24:06,901 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:24:06,903 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2019-09-21 01:24:06,904 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2019-09-21 01:24:06,905 - freemarker.cache -DEBUG - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2019-09-21 01:24:08,150 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-21 01:24:08,150 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using blank value
+2019-09-21 01:24:08,150 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-21 01:24:08,150 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using blank value
+2019-09-21 01:24:08,166 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-21 01:24:08,166 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using blank value
+2019-09-21 01:24:08,166 - io.github.bonigarcia.wdm.Shell -TRACE - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+2019-09-21 01:24:08,306 - io.github.bonigarcia.wdm.Shell -TRACE - Result: Version=76.0.3809.132
+2019-09-21 01:24:08,306 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Detected Google Chrome version 76
+2019-09-21 01:24:08,306 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-21 01:24:08,306 - io.github.bonigarcia.wdm.Preferences -DEBUG - Preference found chrome76=76.0.3809.68 (valid until 2019-09-21 10:03:19)
+2019-09-21 01:24:08,306 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 76.0.3809.68 (since Google Chrome 76 is installed in your machine)
+2019-09-21 01:24:08,306 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Managing chromedriver arch=64 version=76.0.3809.68 getLatest=false cache=false
+2019-09-21 01:24:08,306 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Checking if chromedriver exists in cache
+2019-09-21 01:24:08,306 - io.github.bonigarcia.wdm.Downloader -TRACE - Target path C:\Users\DELL/.m2/repository/webdriver
+2019-09-21 01:24:08,306 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by chromedriver -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-21 01:24:08,322 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by 76.0.3809.68 -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-21 01:24:08,322 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by win -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-21 01:24:08,322 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-21 01:24:08,322 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-21 01:24:08,322 - io.github.bonigarcia.wdm.WebDriverManager -DEBUG - Driver chromedriver 76.0.3809.68 found in cache
+2019-09-21 01:24:08,322 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe
+2019-09-21 01:24:38,350 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:24:38,352 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2019-09-21 01:24:38,353 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2019-09-21 01:24:38,354 - freemarker.cache -DEBUG - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2019-09-21 01:24:38,380 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:24:38,383 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2019-09-21 01:24:38,384 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2019-09-21 01:24:38,385 - freemarker.cache -DEBUG - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2019-09-21 01:24:38,394 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:24:38,396 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2019-09-21 01:24:38,398 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2019-09-21 01:24:38,399 - freemarker.cache -DEBUG - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2019-09-21 01:24:38,409 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:24:38,410 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2019-09-21 01:24:38,412 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2019-09-21 01:24:38,413 - freemarker.cache -DEBUG - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2019-09-21 01:24:38,494 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:24:38,496 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2019-09-21 01:24:38,497 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2019-09-21 01:24:38,498 - freemarker.cache -DEBUG - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2019-09-21 01:24:38,534 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection manager is shutting down
+2019-09-21 01:24:38,535 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection manager shut down
+2019-09-21 01:24:38,540 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection manager is shutting down
+2019-09-21 01:24:38,540 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection manager shut down
+2019-09-21 01:24:38,546 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection manager is shutting down
+2019-09-21 01:24:38,547 - org.apache.http.impl.conn.PoolingHttpClientConnectionManager -DEBUG - Connection manager shut down
+2019-09-21 01:24:38,571 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:24:38,575 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2019-09-21 01:24:38,578 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2019-09-21 01:24:38,581 - freemarker.cache -DEBUG - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2019-09-21 01:24:38,662 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:24:38,664 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2019-09-21 01:24:38,665 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2019-09-21 01:24:38,666 - freemarker.cache -DEBUG - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2019-09-21 01:24:38,677 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:24:38,678 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2019-09-21 01:24:38,692 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2019-09-21 01:24:38,692 - freemarker.cache -DEBUG - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2019-09-21 01:24:38,702 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:24:38,703 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2019-09-21 01:24:38,704 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2019-09-21 01:24:38,705 - freemarker.cache -DEBUG - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2019-09-21 01:24:38,720 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:24:38,721 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2019-09-21 01:24:38,723 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2019-09-21 01:24:38,725 - freemarker.cache -DEBUG - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2019-09-21 01:24:38,737 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:24:38,738 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2019-09-21 01:24:38,739 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2019-09-21 01:24:38,741 - freemarker.cache -DEBUG - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2019-09-21 01:24:39,752 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-21 01:24:39,756 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using blank value
+2019-09-21 01:24:39,757 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-21 01:24:39,757 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.proxy not found in /webdrivermanager.properties, using blank value
+2019-09-21 01:24:39,757 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2019-09-21 01:24:39,772 - io.github.bonigarcia.wdm.Config -TRACE - Property wdm.binaryPath not found in /webdrivermanager.properties, using blank value
+2019-09-21 01:24:39,772 - io.github.bonigarcia.wdm.Shell -TRACE - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+2019-09-21 01:24:39,913 - io.github.bonigarcia.wdm.Shell -TRACE - Result: Version=76.0.3809.132
+2019-09-21 01:24:39,913 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Detected Google Chrome version 76
+2019-09-21 01:24:39,913 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-21 01:24:39,913 - io.github.bonigarcia.wdm.Preferences -DEBUG - Preference found chrome76=76.0.3809.68 (valid until 2019-09-21 10:03:19)
+2019-09-21 01:24:39,913 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Using chromedriver 76.0.3809.68 (since Google Chrome 76 is installed in your machine)
+2019-09-21 01:24:39,929 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Managing chromedriver arch=64 version=76.0.3809.68 getLatest=false cache=false
+2019-09-21 01:24:39,929 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Checking if chromedriver exists in cache
+2019-09-21 01:24:39,929 - io.github.bonigarcia.wdm.Downloader -TRACE - Target path C:\Users\DELL/.m2/repository/webdriver
+2019-09-21 01:24:39,929 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by chromedriver -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-21 01:24:39,929 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by 76.0.3809.68 -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-21 01:24:39,929 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Filter cache by win -- input list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] -- output list [C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe] 
+2019-09-21 01:24:39,929 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-21 01:24:39,929 - io.github.bonigarcia.wdm.WebDriverManager -TRACE - Using preferences true
+2019-09-21 01:24:39,929 - io.github.bonigarcia.wdm.WebDriverManager -DEBUG - Driver chromedriver 76.0.3809.68 found in cache
+2019-09-21 01:24:39,944 - io.github.bonigarcia.wdm.WebDriverManager -INFO - Exporting webdriver.chrome.driver as C:\Users\DELL\.m2\repository\webdriver\chromedriver\win32\76.0.3809.68\chromedriver.exe
+2019-09-21 01:25:08,937 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:25:08,939 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2019-09-21 01:25:08,941 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2019-09-21 01:25:08,942 - freemarker.cache -DEBUG - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2019-09-21 01:25:08,964 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:25:08,965 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2019-09-21 01:25:08,968 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2019-09-21 01:25:08,969 - freemarker.cache -DEBUG - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2019-09-21 01:25:08,978 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:25:08,980 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2019-09-21 01:25:08,981 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2019-09-21 01:25:08,982 - freemarker.cache -DEBUG - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2019-09-21 01:25:08,993 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:25:08,995 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2019-09-21 01:25:08,996 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2019-09-21 01:25:08,997 - freemarker.cache -DEBUG - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2019-09-21 01:25:09,026 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:25:09,030 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2019-09-21 01:25:09,032 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2019-09-21 01:25:09,033 - freemarker.cache -DEBUG - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2019-09-21 01:25:09,048 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:25:09,050 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2019-09-21 01:25:09,051 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2019-09-21 01:25:09,052 - freemarker.cache -DEBUG - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2019-09-21 01:25:09,081 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:25:09,082 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2019-09-21 01:25:09,085 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2019-09-21 01:25:09,086 - freemarker.cache -DEBUG - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2019-09-21 01:25:09,096 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:25:09,098 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2019-09-21 01:25:09,100 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2019-09-21 01:25:09,101 - freemarker.cache -DEBUG - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2019-09-21 01:25:09,129 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:25:09,134 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2019-09-21 01:25:09,136 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2019-09-21 01:25:09,138 - freemarker.cache -DEBUG - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2019-09-21 01:25:09,158 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:25:09,160 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2019-09-21 01:25:09,161 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2019-09-21 01:25:09,162 - freemarker.cache -DEBUG - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2019-09-21 01:25:09,177 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:25:09,178 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2019-09-21 01:25:09,180 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2019-09-21 01:25:09,181 - freemarker.cache -DEBUG - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2019-09-21 01:25:10,246 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:25:10,246 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2019-09-21 01:25:10,246 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2019-09-21 01:25:10,246 - freemarker.cache -DEBUG - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2019-09-21 01:25:10,261 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:25:10,261 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2019-09-21 01:25:10,261 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2019-09-21 01:25:10,261 - freemarker.cache -DEBUG - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2019-09-21 01:25:10,261 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:25:10,261 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2019-09-21 01:25:10,261 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2019-09-21 01:25:10,261 - freemarker.cache -DEBUG - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2019-09-21 01:25:10,277 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:25:10,277 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2019-09-21 01:25:10,277 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2019-09-21 01:25:10,277 - freemarker.cache -DEBUG - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2019-09-21 01:25:10,293 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:25:10,293 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2019-09-21 01:25:10,293 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2019-09-21 01:25:10,293 - freemarker.cache -DEBUG - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2019-09-21 01:25:10,308 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:25:10,324 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2019-09-21 01:25:10,324 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2019-09-21 01:25:10,324 - freemarker.cache -DEBUG - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2019-09-21 01:25:10,340 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:25:10,355 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2019-09-21 01:25:10,355 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2019-09-21 01:25:10,355 - freemarker.cache -DEBUG - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2019-09-21 01:25:10,355 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:25:10,355 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2019-09-21 01:25:10,355 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2019-09-21 01:25:10,355 - freemarker.cache -DEBUG - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2019-09-21 01:25:10,371 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:25:10,371 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2019-09-21 01:25:10,371 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2019-09-21 01:25:10,371 - freemarker.cache -DEBUG - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2019-09-21 01:25:10,386 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:25:10,386 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2019-09-21 01:25:10,386 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2019-09-21 01:25:10,386 - freemarker.cache -DEBUG - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2019-09-21 01:25:10,386 - freemarker.cache -DEBUG - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2019-09-21 01:25:10,386 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2019-09-21 01:25:10,402 - freemarker.cache -DEBUG - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2019-09-21 01:25:10,402 - freemarker.cache -DEBUG - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"

@@ -49,6 +49,5 @@ public class ContactPageTest extends TestBase{
 	@AfterMethod
 	public void closeBrowser() {
 		logout();
-		System.out.println("after method");
 	}
 }

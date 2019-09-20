@@ -37,6 +37,5 @@ public void verifyLogin() {
 @AfterMethod
 public void closeBrowser() {
 	logout();
-	System.out.println("after method");
 }
 }

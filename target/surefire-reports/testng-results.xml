@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="E2ESuite" duration-ms="228644" started-at="2019-09-20T19:40:00Z" finished-at="2019-09-20T19:43:49Z">
+    <groups>
+    </groups>
+    <test name="SanityTest" duration-ms="228644" started-at="2019-09-20T19:40:00Z" finished-at="2019-09-20T19:43:49Z">
+      <class name="com.fcm.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.fcm.qa.testcases.HomePageTest@153f5a29]" name="initialization" is-config="true" duration-ms="31085" started-at="2019-09-20T19:41:58Z" finished-at="2019-09-20T19:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:1, instance:com.fcm.qa.testcases.HomePageTest@153f5a29]" name="verifyPageTitle" duration-ms="33" started-at="2019-09-20T19:42:29Z" finished-at="2019-09-20T19:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.fcm.qa.testcases.HomePageTest@153f5a29]" name="closeBrowser" is-config="true" duration-ms="739" started-at="2019-09-20T19:42:30Z" finished-at="2019-09-20T19:42:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.fcm.qa.testcases.HomePageTest@153f5a29]" name="initialization" is-config="true" duration-ms="20886" started-at="2019-09-20T19:42:57Z" finished-at="2019-09-20T19:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyLoggedInUser()[pri:2, instance:com.fcm.qa.testcases.HomePageTest@153f5a29]" name="verifyLoggedInUser" duration-ms="3763" started-at="2019-09-20T19:43:18Z" finished-at="2019-09-20T19:43:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedInUser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.fcm.qa.testcases.HomePageTest@153f5a29]" name="closeBrowser" is-config="true" duration-ms="787" started-at="2019-09-20T19:43:22Z" finished-at="2019-09-20T19:43:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.fcm.qa.testcases.HomePageTest@153f5a29]" name="initialization" is-config="true" duration-ms="20617" started-at="2019-09-20T19:43:23Z" finished-at="2019-09-20T19:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyLogoDisplayed()[pri:3, instance:com.fcm.qa.testcases.HomePageTest@153f5a29]" name="verifyLogoDisplayed" duration-ms="3988" started-at="2019-09-20T19:43:43Z" finished-at="2019-09-20T19:43:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoDisplayed -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.fcm.qa.testcases.HomePageTest@153f5a29]" name="closeBrowser" is-config="true" duration-ms="827" started-at="2019-09-20T19:43:48Z" finished-at="2019-09-20T19:43:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.fcm.qa.testcases.HomePageTest -->
+      <class name="com.fcm.qa.testcases.ContactPageTest">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.fcm.qa.testcases.ContactPageTest@26f67b76]" name="initialization" is-config="true" duration-ms="49950" started-at="2019-09-20T19:40:04Z" finished-at="2019-09-20T19:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyContactCreation(java.lang.String, java.lang.String)[pri:1, instance:com.fcm.qa.testcases.ContactPageTest@26f67b76]" name="verifyContactCreation" duration-ms="7161" started-at="2019-09-20T19:40:54Z" data-provider="newContactdata" finished-at="2019-09-20T19:41:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bose]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactCreation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.fcm.qa.testcases.ContactPageTest@26f67b76]" name="closeBrowser" is-config="true" duration-ms="1608" started-at="2019-09-20T19:41:15Z" finished-at="2019-09-20T19:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.fcm.qa.testcases.ContactPageTest@26f67b76]" name="initialization" is-config="true" duration-ms="37156" started-at="2019-09-20T19:41:16Z" finished-at="2019-09-20T19:41:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyContactCreation(java.lang.String, java.lang.String)[pri:1, instance:com.fcm.qa.testcases.ContactPageTest@26f67b76]" name="verifyContactCreation" duration-ms="3523" started-at="2019-09-20T19:41:53Z" data-provider="newContactdata" finished-at="2019-09-20T19:41:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sawant]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactCreation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.fcm.qa.testcases.ContactPageTest@26f67b76]" name="closeBrowser" is-config="true" duration-ms="1086" started-at="2019-09-20T19:41:57Z" finished-at="2019-09-20T19:41:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.fcm.qa.testcases.ContactPageTest@26f67b76]" name="initialization" is-config="true" duration-ms="24948" started-at="2019-09-20T19:42:31Z" finished-at="2019-09-20T19:42:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="verifyPage()[pri:2, instance:com.fcm.qa.testcases.ContactPageTest@26f67b76]" name="verifyPage" duration-ms="250" started-at="2019-09-20T19:42:55Z" finished-at="2019-09-20T19:42:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.fcm.qa.testcases.ContactPageTest@26f67b76]" name="closeBrowser" is-config="true" duration-ms="919" started-at="2019-09-20T19:42:56Z" finished-at="2019-09-20T19:42:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.fcm.qa.testcases.ContactPageTest -->
+    </test> <!-- SanityTest -->
+  </suite> <!-- E2ESuite -->
+</testng-results>

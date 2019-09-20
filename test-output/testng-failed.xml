@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [E2ESuite]" parallel="classes">
+  <listeners>
+    <listener class-name="com.fcm.qa.util.TestNGListener"/>
+  </listeners>
+  <test thread-count="2" name="SanityTest(failed)" parallel="classes">
     <classes>
-      <class name="com.fcm.qa.testcases.HomePageTest">
+      <class name="com.fcm.qa.testcases.ContactPageTest">
         <methods>
           <include name="initialization"/>
-          <include name="verifyLogoDisplayed"/>
           <include name="closeBrowser"/>
-          <include name="verifyLoggedInUser"/>
+          <include name="verifyPage"/>
         </methods>
-      </class> <!-- com.fcm.qa.testcases.HomePageTest -->
+      </class> <!-- com.fcm.qa.testcases.ContactPageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- SanityTest(failed) -->
+</suite> <!-- Failed suite [E2ESuite] -->
